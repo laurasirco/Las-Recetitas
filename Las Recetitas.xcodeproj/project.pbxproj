@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D301984D1B8A2DFA007C87FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301984C1B8A2DFA007C87FE /* AppDelegate.swift */; };
+		D301984F1B8A2DFA007C87FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301984E1B8A2DFA007C87FE /* ViewController.swift */; };
+		D30198521B8A2DFA007C87FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30198501B8A2DFA007C87FE /* Main.storyboard */; };
+		D30198541B8A2DFA007C87FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30198531B8A2DFA007C87FE /* Assets.xcassets */; };
+		D30198571B8A2DFA007C87FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30198551B8A2DFA007C87FE /* LaunchScreen.storyboard */; };
+		D301985C1B8A2DFA007C87FE /* Las Recetitas WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D301985B1B8A2DFA007C87FE /* Las Recetitas WatchKit App.app */; };
+		D30198621B8A2DFA007C87FE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30198601B8A2DFA007C87FE /* Interface.storyboard */; };
+		D30198641B8A2DFA007C87FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30198631B8A2DFA007C87FE /* Assets.xcassets */; };
+		D301986B1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D301986A1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D30198701B8A2DFA007C87FE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301986F1B8A2DFA007C87FE /* InterfaceController.swift */; };
+		D30198721B8A2DFA007C87FE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30198711B8A2DFA007C87FE /* ExtensionDelegate.swift */; };
+		D30198741B8A2DFA007C87FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30198731B8A2DFA007C87FE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D301985D1B8A2DFA007C87FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D30198411B8A2DFA007C87FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D301985A1B8A2DFA007C87FE;
+			remoteInfo = "Las Recetitas WatchKit App";
+		};
+		D301986C1B8A2DFA007C87FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D30198411B8A2DFA007C87FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D30198691B8A2DFA007C87FE;
+			remoteInfo = "Las Recetitas WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D301987B1B8A2DFA007C87FE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D301986B1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D301987F1B8A2DFA007C87FE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D301985C1B8A2DFA007C87FE /* Las Recetitas WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D30198491B8A2DFA007C87FE /* Las Recetitas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Las Recetitas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D301984C1B8A2DFA007C87FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D301984E1B8A2DFA007C87FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D30198511B8A2DFA007C87FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D30198531B8A2DFA007C87FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30198561B8A2DFA007C87FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D30198581B8A2DFA007C87FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D301985B1B8A2DFA007C87FE /* Las Recetitas WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Las Recetitas WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30198611B8A2DFA007C87FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D30198631B8A2DFA007C87FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30198651B8A2DFA007C87FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D301986A1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Las Recetitas WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D301986F1B8A2DFA007C87FE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D30198711B8A2DFA007C87FE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D30198731B8A2DFA007C87FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D30198751B8A2DFA007C87FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D30198461B8A2DFA007C87FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30198671B8A2DFA007C87FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30198401B8A2DF9007C87FE = {
+			isa = PBXGroup;
+			children = (
+				D301984B1B8A2DFA007C87FE /* Las Recetitas */,
+				D301985F1B8A2DFA007C87FE /* Las Recetitas WatchKit App */,
+				D301986E1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension */,
+				D301984A1B8A2DFA007C87FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D301984A1B8A2DFA007C87FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30198491B8A2DFA007C87FE /* Las Recetitas.app */,
+				D301985B1B8A2DFA007C87FE /* Las Recetitas WatchKit App.app */,
+				D301986A1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D301984B1B8A2DFA007C87FE /* Las Recetitas */ = {
+			isa = PBXGroup;
+			children = (
+				D301984C1B8A2DFA007C87FE /* AppDelegate.swift */,
+				D301984E1B8A2DFA007C87FE /* ViewController.swift */,
+				D30198501B8A2DFA007C87FE /* Main.storyboard */,
+				D30198531B8A2DFA007C87FE /* Assets.xcassets */,
+				D30198551B8A2DFA007C87FE /* LaunchScreen.storyboard */,
+				D30198581B8A2DFA007C87FE /* Info.plist */,
+			);
+			path = "Las Recetitas";
+			sourceTree = "<group>";
+		};
+		D301985F1B8A2DFA007C87FE /* Las Recetitas WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D30198601B8A2DFA007C87FE /* Interface.storyboard */,
+				D30198631B8A2DFA007C87FE /* Assets.xcassets */,
+				D30198651B8A2DFA007C87FE /* Info.plist */,
+			);
+			path = "Las Recetitas WatchKit App";
+			sourceTree = "<group>";
+		};
+		D301986E1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D301986F1B8A2DFA007C87FE /* InterfaceController.swift */,
+				D30198711B8A2DFA007C87FE /* ExtensionDelegate.swift */,
+				D30198731B8A2DFA007C87FE /* Assets.xcassets */,
+				D30198751B8A2DFA007C87FE /* Info.plist */,
+			);
+			path = "Las Recetitas WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D30198481B8A2DFA007C87FE /* Las Recetitas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30198801B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas" */;
+			buildPhases = (
+				D30198451B8A2DFA007C87FE /* Sources */,
+				D30198461B8A2DFA007C87FE /* Frameworks */,
+				D30198471B8A2DFA007C87FE /* Resources */,
+				D301987F1B8A2DFA007C87FE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D301985E1B8A2DFA007C87FE /* PBXTargetDependency */,
+			);
+			name = "Las Recetitas";
+			productName = "Las Recetitas";
+			productReference = D30198491B8A2DFA007C87FE /* Las Recetitas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D301985A1B8A2DFA007C87FE /* Las Recetitas WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D301987C1B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas WatchKit App" */;
+			buildPhases = (
+				D30198591B8A2DFA007C87FE /* Resources */,
+				D301987B1B8A2DFA007C87FE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D301986D1B8A2DFA007C87FE /* PBXTargetDependency */,
+			);
+			name = "Las Recetitas WatchKit App";
+			productName = "Las Recetitas WatchKit App";
+			productReference = D301985B1B8A2DFA007C87FE /* Las Recetitas WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D30198691B8A2DFA007C87FE /* Las Recetitas WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30198781B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas WatchKit Extension" */;
+			buildPhases = (
+				D30198661B8A2DFA007C87FE /* Sources */,
+				D30198671B8A2DFA007C87FE /* Frameworks */,
+				D30198681B8A2DFA007C87FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Las Recetitas WatchKit Extension";
+			productName = "Las Recetitas WatchKit Extension";
+			productReference = D301986A1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30198411B8A2DFA007C87FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Laura Sirvent Collado";
+				TargetAttributes = {
+					D30198481B8A2DFA007C87FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D301985A1B8A2DFA007C87FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D30198691B8A2DFA007C87FE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = D30198441B8A2DFA007C87FE /* Build configuration list for PBXProject "Las Recetitas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D30198401B8A2DF9007C87FE;
+			productRefGroup = D301984A1B8A2DFA007C87FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D30198481B8A2DFA007C87FE /* Las Recetitas */,
+				D301985A1B8A2DFA007C87FE /* Las Recetitas WatchKit App */,
+				D30198691B8A2DFA007C87FE /* Las Recetitas WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D30198471B8A2DFA007C87FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30198571B8A2DFA007C87FE /* LaunchScreen.storyboard in Resources */,
+				D30198541B8A2DFA007C87FE /* Assets.xcassets in Resources */,
+				D30198521B8A2DFA007C87FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30198591B8A2DFA007C87FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30198641B8A2DFA007C87FE /* Assets.xcassets in Resources */,
+				D30198621B8A2DFA007C87FE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30198681B8A2DFA007C87FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30198741B8A2DFA007C87FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D30198451B8A2DFA007C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D301984F1B8A2DFA007C87FE /* ViewController.swift in Sources */,
+				D301984D1B8A2DFA007C87FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30198661B8A2DFA007C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30198721B8A2DFA007C87FE /* ExtensionDelegate.swift in Sources */,
+				D30198701B8A2DFA007C87FE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D301985E1B8A2DFA007C87FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D301985A1B8A2DFA007C87FE /* Las Recetitas WatchKit App */;
+			targetProxy = D301985D1B8A2DFA007C87FE /* PBXContainerItemProxy */;
+		};
+		D301986D1B8A2DFA007C87FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D30198691B8A2DFA007C87FE /* Las Recetitas WatchKit Extension */;
+			targetProxy = D301986C1B8A2DFA007C87FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D30198501B8A2DFA007C87FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30198511B8A2DFA007C87FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D30198551B8A2DFA007C87FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30198561B8A2DFA007C87FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D30198601B8A2DFA007C87FE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30198611B8A2DFA007C87FE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D30198761B8A2DFA007C87FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D30198771B8A2DFA007C87FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D30198791B8A2DFA007C87FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Las Recetitas WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D301987A1B8A2DFA007C87FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Las Recetitas WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D301987D1B8A2DFA007C87FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Las_Recetitas_WatchKit_Extension;
+				INFOPLIST_FILE = "Las Recetitas WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D301987E1B8A2DFA007C87FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Las_Recetitas_WatchKit_Extension;
+				INFOPLIST_FILE = "Las Recetitas WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D30198811B8A2DFA007C87FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Las Recetitas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D30198821B8A2DFA007C87FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Las Recetitas/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D30198441B8A2DFA007C87FE /* Build configuration list for PBXProject "Las Recetitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30198761B8A2DFA007C87FE /* Debug */,
+				D30198771B8A2DFA007C87FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D30198781B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30198791B8A2DFA007C87FE /* Debug */,
+				D301987A1B8A2DFA007C87FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D301987C1B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D301987D1B8A2DFA007C87FE /* Debug */,
+				D301987E1B8A2DFA007C87FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D30198801B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30198811B8A2DFA007C87FE /* Debug */,
+				D30198821B8A2DFA007C87FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30198411B8A2DFA007C87FE /* Project object */;
+}
