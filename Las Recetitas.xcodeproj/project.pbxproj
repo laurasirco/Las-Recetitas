@@ -19,6 +19,12 @@
 		D30198701B8A2DFA007C87FE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D301986F1B8A2DFA007C87FE /* InterfaceController.swift */; };
 		D30198721B8A2DFA007C87FE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30198711B8A2DFA007C87FE /* ExtensionDelegate.swift */; };
 		D30198741B8A2DFA007C87FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D30198731B8A2DFA007C87FE /* Assets.xcassets */; };
+		D337E4A41B9498350056AB17 /* MainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D337E4A31B9498350056AB17 /* MainInterfaceController.swift */; };
+		D3728B031B8F05F00060EC84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3728B021B8F05F00060EC84 /* QuartzCore.framework */; };
+		D3728B051B8F0A0E0060EC84 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3728B041B8F0A0E0060EC84 /* TableViewController.swift */; };
+		D3728B071B8F26A60060EC84 /* RecetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3728B061B8F26A60060EC84 /* RecetaViewController.swift */; };
+		D39343831B90CEC8001470B7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39343821B90CEC8001470B7 /* TableViewCell.swift */; };
+		D3B743B31B9044BB000DFE30 /* DescargarYParsear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B743B21B9044BB000DFE30 /* DescargarYParsear.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,12 @@
 		D30198711B8A2DFA007C87FE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		D30198731B8A2DFA007C87FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D30198751B8A2DFA007C87FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D337E4A31B9498350056AB17 /* MainInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInterfaceController.swift; sourceTree = "<group>"; };
+		D3728B021B8F05F00060EC84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D3728B041B8F0A0E0060EC84 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		D3728B061B8F26A60060EC84 /* RecetaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecetaViewController.swift; sourceTree = "<group>"; };
+		D39343821B90CEC8001470B7 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D3B743B21B9044BB000DFE30 /* DescargarYParsear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescargarYParsear.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3728B031B8F05F00060EC84 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +116,7 @@
 		D30198401B8A2DF9007C87FE = {
 			isa = PBXGroup;
 			children = (
+				D3728B021B8F05F00060EC84 /* QuartzCore.framework */,
 				D301984B1B8A2DFA007C87FE /* Las Recetitas */,
 				D301985F1B8A2DFA007C87FE /* Las Recetitas WatchKit App */,
 				D301986E1B8A2DFA007C87FE /* Las Recetitas WatchKit Extension */,
@@ -129,6 +143,10 @@
 				D30198531B8A2DFA007C87FE /* Assets.xcassets */,
 				D30198551B8A2DFA007C87FE /* LaunchScreen.storyboard */,
 				D30198581B8A2DFA007C87FE /* Info.plist */,
+				D3728B041B8F0A0E0060EC84 /* TableViewController.swift */,
+				D3728B061B8F26A60060EC84 /* RecetaViewController.swift */,
+				D3B743B21B9044BB000DFE30 /* DescargarYParsear.swift */,
+				D39343821B90CEC8001470B7 /* TableViewCell.swift */,
 			);
 			path = "Las Recetitas";
 			sourceTree = "<group>";
@@ -150,6 +168,7 @@
 				D30198711B8A2DFA007C87FE /* ExtensionDelegate.swift */,
 				D30198731B8A2DFA007C87FE /* Assets.xcassets */,
 				D30198751B8A2DFA007C87FE /* Info.plist */,
+				D337E4A31B9498350056AB17 /* MainInterfaceController.swift */,
 			);
 			path = "Las Recetitas WatchKit Extension";
 			sourceTree = "<group>";
@@ -216,17 +235,21 @@
 		D30198411B8A2DFA007C87FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Laura Sirvent Collado";
 				TargetAttributes = {
 					D30198481B8A2DFA007C87FE = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JG445TP9M7;
 					};
 					D301985A1B8A2DFA007C87FE = {
 						CreatedOnToolsVersion = 7.0;
 					};
 					D30198691B8A2DFA007C87FE = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JG445TP9M7;
 					};
 				};
 			};
@@ -285,7 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3728B071B8F26A60060EC84 /* RecetaViewController.swift in Sources */,
+				D3B743B31B9044BB000DFE30 /* DescargarYParsear.swift in Sources */,
 				D301984F1B8A2DFA007C87FE /* ViewController.swift in Sources */,
+				D39343831B90CEC8001470B7 /* TableViewCell.swift in Sources */,
+				D3728B051B8F0A0E0060EC84 /* TableViewController.swift in Sources */,
 				D301984D1B8A2DFA007C87FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D337E4A41B9498350056AB17 /* MainInterfaceController.swift in Sources */,
 				D30198721B8A2DFA007C87FE /* ExtensionDelegate.swift in Sources */,
 				D30198701B8A2DFA007C87FE /* InterfaceController.swift in Sources */,
 			);
@@ -426,10 +454,13 @@
 		D30198791B8A2DFA007C87FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Las Recetitas WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -440,10 +471,13 @@
 		D301987A1B8A2DFA007C87FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Las Recetitas WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -487,10 +521,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Las Recetitas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -498,10 +536,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Las Recetitas/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.laurasirco.Las-Recetitas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -524,6 +566,7 @@
 				D301987A1B8A2DFA007C87FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D301987C1B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +575,7 @@
 				D301987E1B8A2DFA007C87FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D30198801B8A2DFA007C87FE /* Build configuration list for PBXNativeTarget "Las Recetitas" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +584,7 @@
 				D30198821B8A2DFA007C87FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
